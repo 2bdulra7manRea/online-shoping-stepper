@@ -1,0 +1,48 @@
+
+.view-card-custom-song{
+    position: relative;
+    width:350px;
+    height:60px;
+    background-color: rgba(255, 255, 255, 0);
+    margin:10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; 
+    color:black;
+}
+
+.view-card-custom-song > .col-4{
+    height:60px;
+}
+
+
+.view-card-custom-song:hover .icon-card-song{
+    display: block;
+}
+
+
+
+.icon-card-song {
+    display: none;
+}
+
+.view-card-custom-song .image-box-song{
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.image-box img{
+    object-fit: cover;
+}
+
+
+.content-box >*{
+    display: inline-block;
+    padding:2px;
+    font-size:13px;
+}
+
+
+.content-box >*:hover{
+color: aqua;
+}

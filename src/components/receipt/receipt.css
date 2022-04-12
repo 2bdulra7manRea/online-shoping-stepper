@@ -1,0 +1,21 @@
+.user-info > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.subtitle{
+    color: blue;
+}
+
+h6{
+    font-size:12px;
+}
+p{
+    font-size:12px;
+}
+.header-receipt{
+    background-color: blue;
+    color: white;
+    padding:10px;
+}
